@@ -17,8 +17,8 @@ class Human
     {
         return name;
     }
-     public int getAge()
-     {
+    public int getAge()
+    {
         return age;
-     }
+    }
 }
