@@ -30,7 +30,7 @@ class B extends A
     }
     public B(int n)
     {
-        super();  
+        super(n);  //THIS WILL CALL THE PARAMETERIZED CUSTROCTOR FROM A
         System.out.println("In B Int");
     }
 }
