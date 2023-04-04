@@ -11,11 +11,13 @@ public class ThisClassSuperClass
 class A //THIS IS PARENT CLASS WHICH EXTENDS OBJECT CLASS FROM JAVA
 { 
     public A() //DEFAULT CUSTROCTUR
-    {  
+    {
+        super();  //EVERY CONSTRUCTOR HAS SUPER() METHOD HIDDEN
         System.out.println("In A");
     }
     public A(int n)
     {
+        super();  
         System.out.println("In A Int");
     }
 }
@@ -23,10 +25,12 @@ class B extends A
 {
     public B() //DEFAULT CUSTROCTOR
     {
+        super();  
         System.out.println("In B");
     }
     public B(int n)
     {
+        super();  
         System.out.println("In B Int");
     }
 }
