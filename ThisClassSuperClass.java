@@ -2,8 +2,8 @@ public class ThisClassSuperClass
 {
     public static void main( String args[])
     {
-        //B obj = new B();
-        B obj = new B(6);
+        B obj = new B(7);
+        //B obj = new B(6);
 
     }
 }
@@ -28,9 +28,14 @@ class B extends A
         super();  
         System.out.println("In B");
     }
+    // public B(int n)
+    // {
+    //     super(n);  //THIS WILL CALL THE PARAMETERIZED CUSTROCTOR FROM A
+    //     System.out.println("In B Int");
+    // }
     public B(int n)
     {
-        super(n);  //THIS WILL CALL THE PARAMETERIZED CUSTROCTOR FROM A
+        this(); //THIS IS USED TO EXECUTE CUSTROCTOR OF SAME CLASS
         System.out.println("In B Int");
     }
 }
