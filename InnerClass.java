@@ -21,7 +21,7 @@ class A
     }
 
     //class AA
-    static class AA
+    static class AA  //THIS IS THE INNER CLASS
     {
         public void config()
         {
