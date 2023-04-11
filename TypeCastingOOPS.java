@@ -8,6 +8,9 @@ public class TypeCastingOOPS
     {
         A obj = (A) new B(); //up casting
         obj.show1();
+
+        B obj1 = (B) obj;  //down casting 
+        obj1.show2();
     }
 }
 
