@@ -23,7 +23,8 @@ public class FinalKeyword
 // final class Calc
 class Calc
 {
-    public final void show()
+    // public final void show()
+    public void show()
     {
         System.out.println("Calculator by Sairaj");
     }
