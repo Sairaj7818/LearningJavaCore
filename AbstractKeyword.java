@@ -5,7 +5,7 @@ public class AbstractKeyword
     public static void main(String args[])
     {
         //Car obj = new Car(); //THIS WILL NOT WORK AS WE CANNOT CREATE OBJ OF ABSTRACT CLASS
-        Car obj = new WagonR();      
+        Car obj = new WagonR();   //WE WILL HAVE TO MAKE OBJECT LIKE THIS
         obj.drive();
         obj.playMusic();
     }
