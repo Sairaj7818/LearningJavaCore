@@ -5,8 +5,8 @@ public class InnerClass
         A obj = new A(); 
         obj.show(); 
 
-        A.AA obj1 = obj.new AA(); // THIS SYNTEX IS USED WHEN CLASS IS INSTANCE
-        // A.AA obj1 = new A.AA();  //THIS SYNTEX IS USED WHEN CLASS IS STATIC
+        //A.AA obj1 = obj.new AA(); // THIS SYNTEX IS USED WHEN CLASS IS INSTANCE
+        A.AA obj1 = new A.AA();  //THIS SYNTEX IS USED WHEN CLASS IS STATIC
         obj1.config();
     }
 }
@@ -20,8 +20,8 @@ class A
         System.out.println("in class A method show");
     }
 
-    class AA
-    // static class AA
+    //class AA
+    static class AA
     {
         public void config()
         {
