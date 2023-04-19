@@ -7,9 +7,10 @@ public class Annotations
     }
 }
 
+//@Deprecated //THIS IS CLASS LEVEL ANNOTATION 
 class A
 {
-    //@Override //USING THESE TYPES OF NOTATIONS TO TELL COMPILER TO SHOW THE ERROR
+    //@Override //USING THESE TYPES OF ANNOTATIONS TO TELL COMPILER TO SHOW THE ERROR
     public void showThatWeMakeMistakesInMethodName()
     {
         System.out.println("In Show A");
